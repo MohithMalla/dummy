@@ -9,7 +9,7 @@ export class Count extends Component {
       }
     }
     Increment(){
-        this.setState({count:this.state.count+1},()=>{console.log(this.state.count)
+        this.setState({count:this.state.count+2},()=>{console.log(this.state.count)
         })
         console.log(this.state.count);
     }
